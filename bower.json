@@ -1,0 +1,21 @@
+{
+  "name": "maheshchandra.com",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Mahesh <mahesh.chandra61@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
