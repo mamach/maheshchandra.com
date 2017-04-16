@@ -1,0 +1,10 @@
+.video-card {
+  margin-bottom: 20px;
+}
+.video-card iframe {
+  border: 0;
+  height: 220px;
+}
+.video-card img {
+  cursor: pointer;
+}

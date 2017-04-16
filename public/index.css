@@ -1,0 +1,70 @@
+/**
+ * Body CSS
+ */
+html,
+body {
+  height: 100%;
+}
+
+html,
+body,
+input,
+textarea,
+buttons {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+/**
+ * Sidebar CSS
+ */
+#sidebar {
+  text-align: center;
+  background-color: #ECEFF1;
+  padding: 15px;
+  color: #676767;
+  font-size: 22px;
+  font-weight: bold;
+  border-right: 12px solid #FFCD44;
+}
+#sidebar a {
+  color: #444444;
+}
+
+#main-bar {
+  background-color: #5390F5;
+  font-weight: bold;
+  line-height: 64px;
+  font-size: 24px;
+}
+
+#main-footer {
+  background-color: #CE4438;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#main-footer a {
+    color: #FFF;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    height: 100%;
+    padding-top: 30px;
+  }
+}
+
+/**
+ * Content CSS
+ */
+@media (min-width: 768px) {
+  #content, #main-bar, #main-footer {
+    margin-left: 180px;
+  }
+}
