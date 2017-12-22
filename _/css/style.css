@@ -57,16 +57,16 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-/* line 10, ../components/sass/_base.scss */
-body {
-  font-family: Spectral SC, serif;
-  font-size: 1.2 rem;
-  line-height: 160%;
-  background: white;
-  color: #0A2933; }
+/* line 27, ../components/sass/_base.scss */
+.navbar-default {
+  background-color: #f19599; }
+  /* line 29, ../components/sass/_base.scss */
+  .navbar-default .navbar-brand {
+    font-size: 40px; }
 
-/* line 17, ../components/sass/_base.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
-  color: #475B62; }
+/* line 34, ../components/sass/_base.scss */
+.about {
+  font-size: 20px; }
+  /* line 38, ../components/sass/_base.scss */
+  .about p ul li {
+    list-style: disc; }

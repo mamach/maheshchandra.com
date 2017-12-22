@@ -7,15 +7,37 @@
 // import font-awesome icons CSS CDN
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-body{
-  font-family: $body_font;
-  font-size: 1.2 rem;
-  line-height:160%;
-  background: lighten($paleyellow, 50);
-  color: $darkblue;
+// body{
+//   font-family: $body_font;
+//   font-size: 1.2 rem;
+//   line-height:160%;
+//   background: lighten($paleyellow, 50);
+//   color: $darkblue;
+// }
+//  #{headings()}{
+//    font-family: $heading_font;
+//    font-weight:normal;
+//    color: $darkgray;
+//  }
+
+.container-fluid{
+  // background-color: lighten($red, 30);
 }
- #{headings()}{
-   font-family: $heading_font;
-   font-weight:normal;
-   color: $darkgray;
+
+.navbar-default {
+  background-color: lighten($red, 30);
+  .navbar-brand{
+    font-size:40px;
+  }
  }
+
+.about{
+  font-size: 20px;
+  p{
+    ul{
+      li{
+        list-style: disc;
+      }
+    }
+  }
+}
