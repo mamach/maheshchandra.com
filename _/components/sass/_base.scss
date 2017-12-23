@@ -7,13 +7,13 @@
 // import font-awesome icons CSS CDN
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-// body{
+body{
 //   font-family: $body_font;
 //   font-size: 1.2 rem;
 //   line-height:160%;
-//   background: lighten($paleyellow, 50);
+  background: lighten($darkgray, 10);
 //   color: $darkblue;
-// }
+}
 //  #{headings()}{
 //    font-family: $heading_font;
 //    font-weight:normal;
@@ -21,23 +21,58 @@
 //  }
 
 .container-fluid{
-  // background-color: lighten($red, 30);
+  // background-color: lighten($gray, 30);
 }
 
 .navbar-default {
   background-color: lighten($red, 30);
+  z-index: $large_number;
   .navbar-brand{
     font-size:40px;
   }
  }
 
 .about{
+  margin-top: -21px;
+  padding: 10px 0px 20px 0px;
+  background-color: darken($paleryellow, 20);
   font-size: 20px;
-  p{
-    ul{
-      li{
-        list-style: disc;
-      }
-    }
+  ul{
+    padding-left: 30px;
   }
+  li{
+    list-style: disc;
+  }
+}
+
+.portfolio{
+  padding: 10px 15px 10px 15px;
+  background-color: darken($paleryellow, 10);
+  .col-md-6{
+    margin-bottom: 10px;
+  }
+}
+
+.portfolio-heading{
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color:lighten($green, 10);
+}
+
+.contact-message{
+  font-size: 30px;
+  padding: 10px 10px 10px 10px;
+  line-height: normal;
+}
+
+.strong-text{
+  font-weight: bold;
+}
+
+.personal-image{
+  display: flex;
+  align-items: center;
+  min-height: 100%;
 }

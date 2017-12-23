@@ -11,57 +11,114 @@
 
 <body>
     <div class="container-fluid">
-        <div class="container">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                           <span class="sr-only">Toggle navigation</span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="#">Mahesh Chandra</a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
+                    <a class="navbar-brand" href="#">Mahesh Chandra</a>
                 </div>
-                <!-- /.container-fluid -->
-            </nav>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="container">
             <div class="row about">
-              <div class="col-md-8 ">
-                  <p>
-                      Frontend Developer --- With experience in HTML, CSS, Javascript, SASS, responsive design, browser compatible design, Angular 1 and Angular 5, Gulp and Grunt task runner, version control(GIT) for source code management. As a backend delveloper had experience in working with Node.js, MongodDB, SAAS(Software As A Service applications), ejabberd, socket.io, ES6, ES5 etc.
-                  </p>
-                  <p>
-                      Deployment: Good understanding of following services in AWS
-                      <ul>
-                          <li>S3</li>
-                          <li>EC2</li>
-                          <li>Beanstalk</li>
-                          <li>Route53</li>
-                          <li>Cloud Watch</li>
-                          <li>Elastic Transcoder</li>
-                          <li>Simple Email Service</li>
-                          <li>IAM</li>
-                      </ul>
-                      S3, EC2, Beanstalk, Route53, cloud watch, Elastic Transcoder, Simple Email Service
-                  </p>
-                  <p>
-                      Interests: Machine Learning, Artificial Intelligence, Pattern Recognition, Linear Algebra, Calculus, Data anlytics and Visualization.
-                  </p>
-              </div>
-              <div class="col-md-4">
-                  <img src="https://s3.ap-south-1.amazonaws.com/mamach/mahesh/mahesh_crop.jpg" alt=" mahesh cropped image" class="img-responsive img-rounded">
-              </div>
+                <div class="portfolio-heading text-center">
+                    <h1>About</h1>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <p>
+                        <span class="strong-text">Frontend Developer</span> --- With experience in HTML, CSS, Javascript, SASS, responsive design, browser compatible design, Angular 1 and Angular 5, Gulp and Grunt task runner, version control(GIT) for
+                        source code management. As a <span class="strong-text">backend delveloper</span> had experience in working with Node.js, MongodDB, SAAS(Software As A Service applications), ejabberd, socket.io, ES6, ES5, stitching videos, ffmpeg,uploading
+                        files to S3 etc.
+                    </p>
+                    <p>
+                        <span class="strong-text">Deployment:</span> Good understanding of following services in AWS
+                        <ul>
+                            <li>S3</li>
+                            <li>EC2</li>
+                            <li>Beanstalk</li>
+                            <li>Route53</li>
+                            <li>Cloud Watch</li>
+                            <li>Elastic Transcoder</li>
+                            <li>Simple Email Service</li>
+                            <li>IAM</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="strong-text">Interests:</span> WebRTC, Machine Learning, Artificial Intelligence, Pattern Recognition, Linear Algebra, Calculus, Data anlytics and Visualization, and Cloud Computing.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <img src="https://s3.ap-south-1.amazonaws.com/mamach/mahesh/mahesh_crop.jpg" alt=" mahesh cropped image" class="img-responsive img-rounded personal-image">
+                </div>
+            </div>
+            <!-- end of about -->
+            <div class="portfolio row">
+                <div class="portfolio-heading text-center">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/portfolio/anipanion.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/portfolio/healthepets.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/portfolio/genylabs.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/portfolio/telehealth.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/portfolio/patientfocus.png" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="portfolio row">
+                <div class="portfolio-heading text-center">
+                    <h1>Contact</h1>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPhone">Mobile Number</label>
+                            <input type="text" class="form-control" id="exampleInputPhone" placeholder="Mobile Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="message"> Message</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-message text-justify">
+                        Want to get in touch with me, i am comfortable to have discussions in Skype, email. Just share your details here so that we can start our first steps. I am very much interested in finding solutions for more challenging tasks. If you have one don't hesitate to ask me ...
+                    </div>
+                </div>
             </div>
         </div>
     </div>
