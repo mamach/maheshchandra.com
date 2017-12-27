@@ -61,36 +61,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   background: #5c7680; }
 
-/* line 27, ../components/sass/_base.scss */
+/* line 28, ../components/sass/_base.scss */
 .navbar-default {
-  background-color: #f19599;
-  z-index: 9999999999999; }
-  /* line 30, ../components/sass/_base.scss */
+  background-color: #f19599; }
+  /* line 31, ../components/sass/_base.scss */
   .navbar-default .navbar-brand {
     font-size: 40px; }
 
-/* line 35, ../components/sass/_base.scss */
+/* line 36, ../components/sass/_base.scss */
 .about {
   margin-top: -21px;
   padding: 10px 0px 20px 0px;
   background-color: #f4d67e;
   font-size: 20px; }
-  /* line 40, ../components/sass/_base.scss */
+  /* line 41, ../components/sass/_base.scss */
   .about ul {
     padding-left: 30px; }
-  /* line 43, ../components/sass/_base.scss */
+  /* line 44, ../components/sass/_base.scss */
   .about li {
     list-style: disc; }
 
-/* line 48, ../components/sass/_base.scss */
+/* line 49, ../components/sass/_base.scss */
 .portfolio {
   padding: 10px 15px 10px 15px;
-  background-color: #f8e5ad; }
-  /* line 51, ../components/sass/_base.scss */
+  background-color: #f6de96; }
+  /* line 52, ../components/sass/_base.scss */
   .portfolio .col-md-6 {
     margin-bottom: 10px; }
 
-/* line 56, ../components/sass/_base.scss */
+/* line 57, ../components/sass/_base.scss */
 .portfolio-heading {
   font-size: 40px;
   font-weight: bold;
@@ -98,17 +97,38 @@ body {
   padding-bottom: 10px;
   color: #9cbb07; }
 
-/* line 64, ../components/sass/_base.scss */
+/* line 65, ../components/sass/_base.scss */
+.contact {
+  padding: 10px 15px 10px 15px;
+  background-color: #f8e5ad; }
+
+/* line 70, ../components/sass/_base.scss */
+.social {
+  padding: 10px 15px 10px 15px;
+  background-color: #faedc5; }
+  /* line 74, ../components/sass/_base.scss */
+  .social .col-md-6 i {
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 100%; }
+
+/* line 83, ../components/sass/_base.scss */
+.footer {
+  font-size: 20px;
+  padding-top: 10px; }
+
+/* line 88, ../components/sass/_base.scss */
 .contact-message {
   font-size: 30px;
   padding: 10px 10px 10px 10px;
   line-height: normal; }
 
-/* line 70, ../components/sass/_base.scss */
+/* line 94, ../components/sass/_base.scss */
 .strong-text {
   font-weight: bold; }
 
-/* line 74, ../components/sass/_base.scss */
+/* line 98, ../components/sass/_base.scss */
 .personal-image {
   display: flex;
   align-items: center;

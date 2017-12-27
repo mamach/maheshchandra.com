@@ -11,7 +11,7 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default .navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -26,9 +26,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -36,7 +36,7 @@
             <!-- /.container-fluid -->
         </nav>
         <div class="container">
-            <div class="row about">
+            <div class="row about" id="about">
                 <div class="portfolio-heading text-center">
                     <h1>About</h1>
                 </div>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <!-- end of about -->
-            <div class="portfolio row">
+            <div class="portfolio row" id="portfolio">
                 <div class="portfolio-heading text-center">
                     <h1>Portfolio</h1>
                 </div>
@@ -88,8 +88,8 @@
                 <div class="col-md-6">
                     <img src="images/portfolio/patientfocus.png" class="img-responsive" alt="">
                 </div>
-            </div>
-            <div class="portfolio row">
+            </div> <!--end of portfolio-->
+            <div class="contact row" id="contact">
                 <div class="portfolio-heading text-center">
                     <h1>Contact</h1>
                 </div>
@@ -118,10 +118,37 @@
                     <div class="contact-message text-justify">
                         Want to get in touch with me, i am comfortable to have discussions in Skype, email. Just share your details here so that we can start our first steps. I am very much interested in finding solutions for more challenging tasks. If you have one don't hesitate to ask me ...
                     </div>
+
                 </div>
             </div>
+            <!-- end of contact -->
+            <div class="social row">
+                <div class="col-md-6">
+                    <h1 class="portfolio-heading text-center">About This Page</h1>
+                    <div class="social-content">
+                        This page has been made with Caffeine and Biryani ;). By <a href="https://github.com/mamach" target="_blank">Mahesh</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="portfolio-heading text-center">Social Links</h1>
+                    <a href="https://github.com/mamach" target="_blank">
+                        <i class="fa fa-fw fa-github text-center"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- end of social -->
         </div>
+        <!-- end of container -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="text-center footer">
+                    maheshchandra.com &copy; 2017. All rights reserved.
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
     </div>
+    <!-- end of container-fluid -->
     <script src="_/js/script.js" charset="utf-8"></script>
     <!-- script for live reloading -->
     <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
